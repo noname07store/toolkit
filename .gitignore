@@ -1,5 +1,50 @@
-# Object file
-*.o
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg-info/
+dist/
+build/
+eggs/
+*.egg
 
-# Ada Library Information
-*.ali
+# Virtual Environment
+venv/
+.venv/
+env/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project
+.noname07/
+logs/
+*.log
+data/database/*.db
+data/cache/
+data/temp/
+data/backups/
+
+# API Keys & Secrets
+.env
+*.key
+*.pem
+
+# Exports
+noname07_exports/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
