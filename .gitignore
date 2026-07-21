@@ -1,50 +1,26 @@
-# Python
+# Python cache
 __pycache__/
-*.py[cod]
+*.pyc
 *.pyo
-*.pyd
-.Python
-*.so
-*.egg-info/
-dist/
-build/
-eggs/
-*.egg
 
 # Virtual Environment
 venv/
 .venv/
-env/
+
+# Nuitka build files
+*.build/
+*.dist/
+*.onefile-build/
+*.onefile-build*
+
+# Development files
 .env
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Project
-.noname07/
-logs/
 *.log
-data/database/*.db
-data/cache/
-data/temp/
-data/backups/
 
-# API Keys & Secrets
-.env
-*.key
-*.pem
+# OS files
+.DS_Store
+desktop.ini
 
-# Exports
-noname07_exports/
-
-# Testing
-.pytest_cache/
-.coverage
-htmlcov/
+# Backup files
+*.bak
+*.tmp
