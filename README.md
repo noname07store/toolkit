@@ -1,99 +1,288 @@
-![Version](https://img.shields.io/badge/version-1.0.0-blue)
-![Python](https://img.shields.io/badge/python-3.11%2B-green)
-![License](https://img.shields.io/badge/license-MIT-brightgreen)
-![Platform](https://img.shields.io/badge/platform-Linux%20%7C%20Termux-orange)
-![Modules](https://img.shields.io/badge/modules-25-purple)
-![Features](https://img.shields.io/badge/features-487%2B-red)
+# 🚀 NONAME07 TOOLKIT
 
-# NONAME07 TOOLKIT
+<p align="center">
+  <b>Ultimate Linux & Termux Utility Toolkit</b>
+</p>
 
-Professional Swiss Army Knife for Linux & Termux
+<p align="center">
+  A powerful command line toolkit built for system utilities, development tools, security testing, and automation.
+</p>
 
-NONAME07 Toolkit adalah aplikasi CLI profesional dengan 487+ fitur dalam 25 modul untuk Developer, System Administrator, Network Administrator, Ethical Hacker, dan Power User.
+---
 
-## Quick Start
+## 📌 About
 
+**NONAME07 Toolkit** adalah aplikasi command line berbasis executable yang dirancang untuk Linux dan Termux.
+
+Toolkit ini menyediakan berbagai modul dalam satu aplikasi dengan tampilan terminal modern dan mudah digunakan.
+
+Dibuat oleh:
+
+```
+NONAME07web
+```
+
+---
+
+# ✨ Features
+
+## 🛠 System Tools
+- System Information
+- CPU Information
+- RAM Monitor
+- Disk Information
+- Process Viewer
+- Network Information
+
+## 🌐 Network Tools
+- IP Lookup
+- DNS Lookup
+- Ping Checker
+- Whois Lookup
+- HTTP Header Checker
+- URL Validator
+
+## 🔐 Security Tools
+- Security Header Checker
+- SSL/TLS Checker
+- Hash Generator
+- Hash Checker
+- Base64 Encoder/Decoder
+- Password Generator
+
+## 👨‍💻 Developer Tools
+- JSON Formatter
+- UUID Generator
+- ROT13 Tool
+- File Utilities
+- Encoding Tools
+
+## 🤖 Automation
+- Scheduler Support
+- License Management
+- Admin Management
+
+---
+
+# 🐧 Installation Linux (Ubuntu/Debian)
+
+## 1. Update System
+
+```bash
+sudo apt update && sudo apt upgrade -y
+```
+
+---
+
+## 2. Install Required Package
+
+```bash
+sudo apt install git wget curl -y
+```
+
+---
+
+## 3. Download Toolkit
+
+Clone repository:
+
+```bash
 git clone https://github.com/noname07store/toolkit.git
+```
+
+Masuk folder:
+
+```bash
 cd toolkit
-pip install -r requirements.txt
-python main.py
+```
 
-## Features
+---
 
-487+ features across 25 modules
-Professional terminal UI with Rich library
-Cross-platform: Linux & Android Termux
-Modular architecture with plugin support
-20 built-in themes
-API Center with encrypted key management
-Multi-language support (English & Indonesian)
-Auto-update via GitHub Releases
-Export results to JSON, CSV, TXT
+## 4. Give Permission
 
-## Modules
+```bash
+chmod +x Run
+```
 
-Dashboard - System overview with live monitoring
-System Tools (42) - CPU, RAM, disk, processes, services
-Network Tools (38) - Ping, DNS, ports, scanning, speed test
-Website Tools (28) - HTTP analysis, headers, SSL, scraping
-Security Tools (45) - Encryption, hashing, JWT, certificates
-File Tools (50) - Explorer, search, backup, compression
-Domain Tools (24) - WHOIS, DNS, SSL, SPF, DKIM, DMARC
-Monitoring (50) - CPU, RAM, disk, network, alerts
-Developer Tools (80) - JSON, YAML, Git, encoding, regex
-Utility Tools (150) - Calculator, converter, generators
-Python Tools (35) - Virtual env, pip, testing, code quality
-Docker Tools (35) - Container, image, compose management
-Telegram Tools (50) - Bot API, messages, keyboards, webhook
-Image Tools (50) - Edit, convert, QR, watermark, analyze
-PDF Tools (40) - Merge, split, convert, extract, security
-Archive Tools (35) - ZIP, TAR, GZ, 7Z, batch operations
-API Center (60) - Key management, encryption, testing
-Theme Manager (50) - 20 themes, UI customization
-Settings (54) - Full configuration management
-Multi Language (20) - English & Indonesian support
-Auto Update (35) - GitHub releases integration
-Help Center (32) - Documentation, tutorials, FAQ
-About (30) - Version, credits, system info
+---
 
-## Requirements
+## 5. Run Toolkit
 
-Python 3.11 or higher
-pip package manager
-git (optional)
+```bash
+./Run
+```
 
-## Installation
+---
 
-Linux (Ubuntu/Debian):
+# 📱 Installation Termux Android
 
-sudo apt update
-sudo apt install python3 python3-pip git -y
+## 1. Update Termux
+
+```bash
+pkg update && pkg upgrade -y
+```
+
+---
+
+## 2. Install Package
+
+```bash
+pkg install git wget curl -y
+```
+
+---
+
+## 3. Clone Repository
+
+```bash
 git clone https://github.com/noname07store/toolkit.git
+```
+
+Masuk folder:
+
+```bash
 cd toolkit
-pip install -r requirements.txt
-python main.py
+```
 
-Termux (Android):
+---
 
-pkg update && pkg upgrade
-pkg install python git -y
-git clone https://github.com/noname07store/toolkit.git
+## 4. Permission
+
+```bash
+chmod +x Run
+```
+
+---
+
+## 5. Start Toolkit
+
+```bash
+./Run
+```
+
+---
+
+# 🎮 Usage
+
+## Normal Mode
+
+```bash
+./Run
+```
+
+---
+
+## Admin Mode
+
+```bash
+./Run --admin
+```
+
+Digunakan untuk fitur administrasi toolkit.
+
+---
+
+## Scheduler Mode
+
+```bash
+./Run --run-scheduler
+```
+
+Menjalankan proses scheduler/background task.
+
+---
+
+# 📂 Project Structure
+
+```
+NONAME07/
+│
+├── Run          # Main executable
+├── README.md    # Documentation
+└── LICENSE      # License information
+```
+
+---
+
+# 🔄 Update Toolkit
+
+Masuk folder toolkit:
+
+```bash
 cd toolkit
-pip install -r requirements.txt
-python main.py
+```
 
-## Themes
+Update:
 
-20 built-in themes: Dark, Light, Matrix, Hacker, Neon, Dracula, Nord, Solarized Dark, Solarized Light, Catppuccin Latte, Catppuccin Mocha, Gruvbox, Tokyo Night, Monokai, One Dark, Ayu, Material, Cyberpunk, Retro, Custom
+```bash
+git pull
+```
 
-## License
+Jalankan kembali:
 
-MIT License
+```bash
+./Run
+```
 
-## Author
+---
 
-NONAME07 - github.com/noname07store
+# ⚙️ Requirements
 
-## Support
+## Linux
 
-Berikan star di GitHub jika proyek ini bermanfaat
+Supported:
+- Ubuntu
+- Debian
+- Kali Linux
+- Linux Mint
+
+Minimum:
+- RAM 512 MB
+- Terminal Bash
+
+---
+
+## Termux
+
+Supported:
+- Android 8+
+- Termux Latest Version
+
+Recommended:
+- RAM 2GB+
+
+---
+
+# ⚠️ Disclaimer
+
+NONAME07 Toolkit dibuat untuk tujuan edukasi, administrasi sistem, development, dan pengujian keamanan yang memiliki izin.
+
+Gunakan tool secara bertanggung jawab.
+
+Penulis tidak bertanggung jawab atas penggunaan yang melanggar hukum.
+
+---
+
+# 📜 License
+
+All Rights Reserved.
+
+Copyright © 2026 NONAME07
+
+See LICENSE file for details.
+
+---
+
+# ⭐ Support
+
+Jika project ini membantu Anda:
+
+⭐ Star repository GitHub
+
+Follow project untuk update terbaru.
+
+---
+
+<p align="center">
+  Made with ❤️ by NONAME07
+</p>
