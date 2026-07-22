@@ -112,53 +112,10 @@ chmod +x Run
 ./Run
 ```
 
----
 
-# 📱 Installation Termux Android
 
-## 1. Update Termux
 
-```bash
-pkg update && pkg upgrade -y
-```
 
----
-
-## 2. Install Package
-
-```bash
-pkg install git wget curl -y
-```
-
----
-
-## 3. Clone Repository
-
-```bash
-git clone https://github.com/noname07store/toolkit.git
-```
-
-Masuk folder:
-
-```bash
-cd toolkit
-```
-
----
-
-## 4. Permission
-
-```bash
-chmod +x Run
-```
-
----
-
-## 5. Start Toolkit
-
-```bash
-./Run
-```
 
 ---
 
