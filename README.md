@@ -199,16 +199,7 @@ Minimum:
 
 ---
 
-## Termux
 
-Supported:
-- Android 8+
-- Termux Latest Version
-
-Recommended:
-- RAM 2GB+
-
----
 
 # ⚠️ Disclaimer
 
